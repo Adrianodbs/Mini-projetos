@@ -54,9 +54,11 @@ main {
 
 .card {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 10px;
+  margin: 0 40px 0 80px;
+  min-height: 150px;
 }
 
 .card p {
@@ -68,4 +70,9 @@ main {
 .card-lampada,
 .card-semaforo {
   width: 50px;
+}
+
+.card-pesquisa,
+.card-noturno {
+  width: 60px;
 }
