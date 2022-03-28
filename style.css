@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f0f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* CSS do Cabeçalho */
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0677b8;
+  padding: 10px 50px;
+  align-items: center;
+  width: 100%;
+}
+
+.voltar {
+  width: 30px;
+}
+
+.titulo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.cabecalho-info {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+/* CSS do main */
+
+main {
+  width: 90%;
+}
+
+.projetos {
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.card p {
+  font-size: 1.3rem;
+}
+
+/* imagens */
+
+.card-lampada,
+.card-semaforo {
+  width: 50px;
+}

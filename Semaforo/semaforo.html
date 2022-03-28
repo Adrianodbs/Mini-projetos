@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto | Semáforo</title>
+
+    <link rel="stylesheet" href="./semaforo.css" />
+    <link rel="stylesheet" href="../cabecalho.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <a href="../index.html">
+        <img src="../img_index/voltar.png" alt="Voltar" class="voltar" />
+      </a>
+    </header>
+
+    <main>
+      <p>
+        Nesse mini-projeto foi desenvolvido um semáforo com 4 botões, que
+        acionarão as suas respectivas cores. <br />
+        Obs: o botão automático faz com que as cores fiquem mudando a cada 1
+        segundo
+      </p>
+      <div>
+        <img
+          src="./img/desligado.png"
+          alt="Semáforo"
+          id="img"
+          class="img-semaforo"
+        />
+      </div>
+
+      <div id="buttons">
+        <button id="red" class="button">Vermelho</button>
+        <button id="yellow" class="button">Amarelo</button>
+        <button id="green" class="button">Verde</button>
+        <button id="automatic" class="button">Automático</button>
+      </div>
+    </main>
+
+    <script src="./semaforo.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto | Lâmpada</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../cabecalho.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <a href="../index.html">
+        <img src="../img_index/voltar.png" alt="Voltar" class="voltar" />
+      </a>
+    </header>
+
+    <main class="lamp-main">
+      <div>
+        <p class="lamp-texto">
+          Nesse Mini-projeto a lâmpada vai ligar ao passar o mouse por cima ou
+          clicar no botão 'Ligar', e vai desligar ao retirar o mouse de cima ou
+          clicar no botão 'desligar', a lâmpada irá se quebrar no caso de um
+          duplo clique sobre ela.
+        </p>
+      </div>
+      <div>
+        <img src="./img/desligada.jpg" alt="Lâmpada" id="lamp" />
+      </div>
+      <div>
+        <button id="turnOn" class="lamp-btn">Ligar</button>
+        <button id="turnOff" class="lamp-btn">Desligar</button>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

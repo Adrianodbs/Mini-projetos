@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #0677b8;
+  padding: 10px 50px;
+  align-items: flex-start;
+  width: 100%;
+}
+.voltar {
+  width: 30px;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.lamp-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.lamp-texto {
+  margin: 0 100px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.lamp-btn {
+  padding: 6px;
+  margin: 5px;
+  width: 120px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(90, 32, 182);
+  color: #fff;
+  cursor: pointer;
+}
+
+.lamp-btn:hover {
+  transform: scale(1.05);
+}
