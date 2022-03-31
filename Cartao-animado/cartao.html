@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card animado</title>
+    <link rel="stylesheet" href="cartao.css" />
+    <link rel="stylesheet" href="../cabecalho.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <a href="../index.html">
+        <img src="../img_index/voltar.png" alt="Voltar" class="voltar" />
+      </a>
+    </header>
+    <main>
+      <div class="wrapper">
+        <figure class="card">
+          <img src="./Guerreiro.jpg" alt="Guerreiro" />
+
+          <figcaption class="card__cap">
+            <h2>Guerreiro</h2>
+            <div class="card__desc">
+              <p>Ataque - 1100</p>
+              <p>Defesa - 1000</p>
+            </div>
+          </figcaption>
+          <button class="det__btn">Detalhes</button>
+        </figure>
+
+        <div class="card__details">
+          <h2 class="card__type">Comum</h2>
+          <h3 class="card__info">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </h3>
+
+          <button class="back__btn">Voltar</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./cartao.js"></script>
+  </body>
+</html>
