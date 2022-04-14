@@ -73,11 +73,13 @@ main {
 /* imagens */
 
 .card-lampada,
-.card-semaforo, .card-guerreiro {
+.card-semaforo, .card-guerreiro
+{
   width: 50px;
 }
 
 .card-pesquisa,
-.card-noturno {
+.card-noturno,
+.card-dicionario  {
   width: 60px;
 }
