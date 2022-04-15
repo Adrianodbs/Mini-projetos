@@ -66,20 +66,21 @@ main {
   min-height: 150px;
 }
 
+.card img:hover{
+  transform: scale(1.2);
+}
+
 .card p {
   font-size: 1.3rem;
 }
 
 /* imagens */
 
-.card-lampada,
-.card-semaforo, .card-guerreiro
+.card-50px
 {
   width: 50px;
 }
 
-.card-pesquisa,
-.card-noturno,
-.card-dicionario  {
+.card-60px  {
   width: 60px;
 }
