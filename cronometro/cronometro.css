@@ -1,0 +1,46 @@
+main{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cronometro{
+  background-color: #0677b8;
+  padding: 60px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.cronometro h1{
+  margin-bottom: 15px;
+  font-size: 52px;
+  color: #242222;
+}
+
+.cronometro button{
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 5.5rem;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+
+}
+
+.iniciar{
+  background-color: rgb(9, 100, 9);
+}
+
+.pausar{
+  background-color: rgb(182, 182, 15);
+}
+
+.parar{
+  background-color: rgb(211, 29, 29);
+}
