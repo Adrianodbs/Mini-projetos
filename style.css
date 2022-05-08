@@ -8,7 +8,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f0f0f7;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,16 +17,13 @@ body {
 
 .cabecalho {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #0677b8;
   padding: 10px 50px;
   align-items: center;
   width: 100%;
 }
 
-.voltar {
-  width: 30px;
-}
 
 .titulo {
   color: #fff;
@@ -35,35 +31,35 @@ body {
   font-weight: 500;
 }
 
-.cabecalho-info {
-  color: #fff;
-  font-size: 1.3rem;
-  font-weight: 400;
-}
 
 /* CSS do main */
 
 main {
   width: 90%;
+  background-color: #fff;
 }
 
 .projetos {
   margin-top: 30px;
-  background-color: #fff;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .card {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column-reverse;
+  text-align: center;
+  width: 250px;
   padding: 10px;
   margin: 0 40px 0 80px;
-  min-height: 150px;
+  min-height: 300px;
+}
+
+.card a{
+  text-decoration: none;
+  color: rgb(53, 52, 52);
 }
 
 .card img:hover{
@@ -72,6 +68,11 @@ main {
 
 .card p {
   font-size: 1.3rem;
+  display: none;
+}
+
+.card:hover p{
+  display: block;
 }
 
 /* imagens */
@@ -82,5 +83,5 @@ main {
 }
 
 .card-60px  {
-  width: 60px;
+  width: 80px;
 }
