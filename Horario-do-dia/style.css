@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(96, 96, 230);
+  color: white;
+  text-align: center;
+}
+
+.main{
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.301);
+}
+
+.footer{
+  color: white;
+  text-align: center;
+}
+
+div{
+  text-align: center;
+}
+
+#msg{
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#foto img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}

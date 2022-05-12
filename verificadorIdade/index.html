@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../cabecalho.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <a href="../index.html">
+        <img src="../img_index/voltar.png" alt="Voltar" class="voltar" />
+      </a>
+    </header>
+    <main>
+      <div class="titulo"><h1>Verificador de idade</h1></div>
+      <section class="main">
+        <div>
+          <p>
+            Ano de Nascimento:
+            <input type="number" name="txtano" id="txtano" min="0" />
+          </p>
+          <p>
+            Sexo:
+            <input type="radio" name="radsex" id="masc" checked />
+            <label for="masc">Masculino</label>
+            <input type="radio" name="radsex" id="fem" />
+            <label for="fem">Feminino</label>
+          </p>
+          <p>
+            <input
+              type="button"
+              value="verificar"
+              onclick="verificar()"
+              class="btn"
+            />
+          </p>
+        </div>
+        <div id="resultado">Preencha os dados acima para ver o resultado</div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Desenvolvido por Adriano Alves</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
