@@ -76,6 +76,12 @@ const listaProjetos = [
     link: './modal/index.html',
     img: './img_index/modal.png',
     alt: 'Modal'
+  },
+  {
+    nome: 'Gerador de gradiente',
+    link: './gerador-de-gradiente/index.html',
+    img: './img_index/gradiente.png',
+    alt: 'Gerador de gradiente'
   }
 ]
 
