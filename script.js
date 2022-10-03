@@ -12,10 +12,10 @@ const listaProjetos = [
     alt: 'Projeto do semáforo'
   },
   {
-    nome: 'Verificador de idade',
-    link: './verificadorIdade/index.html',
-    img: './img_index/grupo-de-idade.png',
-    alt: 'Barra de pesquisa'
+    nome: 'Jogo da memória',
+    link: 'https://adrianodbs.github.io/Jogo-da-mem-ria/',
+    img: './img_index/jogo-da-memoria.png',
+    alt: 'Jogo da memória'
   },
   {
     nome: 'Modo noturno',
@@ -82,6 +82,12 @@ const listaProjetos = [
     link: './gerador-de-gradiente/index.html',
     img: './img_index/gradiente.png',
     alt: 'Gerador de gradiente'
+  },
+  {
+    nome: 'Jogo de Super Mario',
+    link: 'https://adrianodbs.github.io/Jogo-mario/',
+    img: './img_index/super-mario.png',
+    alt: 'Super Mario'
   }
 ]
 
