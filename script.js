@@ -88,6 +88,12 @@ const listaProjetos = [
     link: 'https://adrianodbs.github.io/Jogo-mario/',
     img: './img_index/super-mario.png',
     alt: 'Super Mario'
+  },
+  {
+    nome: 'Jogo da velha',
+    link: './jogo-da-velha/index.html',
+    img: './img_index/jogo-da-velha.png',
+    alt: 'Jogo da Velha'
   }
 ]
 
