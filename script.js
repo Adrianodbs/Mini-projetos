@@ -94,6 +94,12 @@ const listaProjetos = [
     link: './jogo-da-velha/index.html',
     img: './img_index/jogo-da-velha.png',
     alt: 'Jogo da Velha'
+  },
+  {
+    nome: 'Gerador de box shadow',
+    link: './gerador-de-box-shadow/index.html',
+    img: './img_index/shadow.png',
+    alt: 'Gerador de Box Shadow'
   }
 ]
 
