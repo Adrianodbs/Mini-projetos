@@ -100,6 +100,12 @@ const listaProjetos = [
     link: './gerador-de-box-shadow/index.html',
     img: './img_index/shadow.png',
     alt: 'Gerador de Box Shadow'
+  },
+  {
+    nome: 'Quiz JS',
+    link: './quiz-js/index.html',
+    img: './img_index/quiz.png',
+    alt: 'Quiz JavaScript'
   }
 ]
 
