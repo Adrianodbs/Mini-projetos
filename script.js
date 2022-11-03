@@ -106,6 +106,12 @@ const listaProjetos = [
     link: './quiz-js/index.html',
     img: './img_index/quiz.png',
     alt: 'Quiz JavaScript'
+  },
+  {
+    nome: 'Calculadora',
+    link: './calculadora/index.html',
+    img: './img_index/calculadora.png',
+    alt: 'Calculadora'
   }
 ]
 
