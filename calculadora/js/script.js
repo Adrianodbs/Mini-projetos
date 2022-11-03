@@ -9,6 +9,18 @@ class Calculator {
     this.currentOperationText = currentOperationText
     this.currentOperation = ''
   }
+
+  //add digit to calculator screen
+  addDigit(digit) {
+    this.currentOperation = digit
+    this.updateScreen()
+  }
+
+  //change values of the calculator screen
+  updateScreen() {
+    //O que digitar na calculadora será adicionado a operação atual
+    this.currentOperationText.innerText += this.currentOperation
+  }
 }
 
 const calc = new Calculator(previousOperationText, currentOperationText)
@@ -20,6 +32,7 @@ buttons.forEach(btn => {
 
     //Para observar se está clicando em um número
     if (+value >= 0 || value === '.') {
+      calc.addDigit(value)
     } else {
     }
   })
