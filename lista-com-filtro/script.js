@@ -1,33 +1,26 @@
-const shoppingList = ['Arroz', 'Feijão', 'Açucar', 'Café', 'Carne', 'Pão']
+const INPUT_BUSCA = document.getElementById('input-busca')
+const TABELA_BEBIDAS = document.getElementById('tabela-bebidas')
 
-const listEl = document.getElementById('list')
-const searchField = document.getElementById('searchField')
+INPUT_BUSCA.addEventListener('keyup', () => {
+  let expressao = INPUT_BUSCA.value.toLowerCase()
 
-searchField.addEventListener('input', inputHandler)
-
-this.fillList()
-
-// Vamos criar um método fillList para atualizar a DOM. Caso ele não receba nenhum parâmetro, ele usa a shoppingList
-function fillList(list = shoppingList) {
-  // Toda vez que a lista é atualizada, a gente precisa apagar o que já tinha
-  listEl.innerHTML = ''
-
-  for (let i = 0; i < list.length; i++) {
-    let listItems = document.createElement('li')
-    listItems.innerHTML = list[i]
-    listEl.appendChild(listItems)
+  if (expressao.length === 1) {
+    return
   }
-}
 
-function inputHandler() {
-  const filteredList = shoppingList.filter(el => {
-    // Para evitar sofrer com letras maiusculas
-    const listItem = el.toLowerCase()
-    const searchWord = searchField.value.toLowerCase()
+  let linhas = TABELA_BEBIDAS.getElementsByTagName('tr')
 
-    return listItem.includes(searchWord)
-  })
+  for (let posicao in linhas) {
+    if (true === isNaN(posicao)) {
+      continue
+    }
 
-  // Toda vez que o campo de busca muda, nós chamamos o fillList novamente
-  fillList(filteredList)
-}
+    let conteudoDaLinha = linhas[posicao].innerHTML.toLowerCase()
+
+    if (true === conteudoDaLinha.includes(expressao)) {
+      linhas[posicao].style.display = ''
+    } else {
+      linhas[posicao].style.display = 'none'
+    }
+  }
+})
