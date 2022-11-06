@@ -112,6 +112,18 @@ const listaProjetos = [
     link: './calculadora/index.html',
     img: './img_index/calculadora.png',
     alt: 'Calculadora'
+  },
+  {
+    nome: 'Drag and Drop (Kanban)',
+    link: './DragAndDrop/index.html',
+    img: './img_index/drag-and-drop.png',
+    alt: 'Kanban'
+  },
+  {
+    nome: 'Lista com filtro',
+    link: './lista-com-filtro/index.html',
+    img: './img_index/filtro.png',
+    alt: 'Filtro'
   }
 ]
 
