@@ -8,7 +8,7 @@ const listaProjetos = [
   {
     nome: 'Semáforo',
     link: './Semaforo/semaforo.html',
-    img: './Semaforo/img/verde.png',
+    img: './img_index/semaforo.png',
     alt: 'Projeto do semáforo'
   },
   {
@@ -124,6 +124,12 @@ const listaProjetos = [
     link: './lista-com-filtro/index.html',
     img: './img_index/filtro.png',
     alt: 'Filtro'
+  },
+  {
+    nome: 'Menu flutuante',
+    link: './menu-flutuante/index.html',
+    img: './img_index/barra-de-menu.png',
+    alt: 'Menu'
   }
 ]
 
