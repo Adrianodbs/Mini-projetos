@@ -130,6 +130,12 @@ const listaProjetos = [
     link: './menu-flutuante/index.html',
     img: './img_index/barra-de-menu.png',
     alt: 'Menu'
+  },
+  {
+    nome: 'Pomodoro',
+    link: 'https://pomodoro-omega-eight.vercel.app/',
+    img: './img_index/pomodoro.png',
+    alt: 'Pomodoro'
   }
 ]
 
