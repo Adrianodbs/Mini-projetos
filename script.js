@@ -136,6 +136,12 @@ const listaProjetos = [
     link: 'https://pomodoro-omega-eight.vercel.app/',
     img: './img_index/pomodoro.png',
     alt: 'Pomodoro'
+  },
+  {
+    nome: 'Previsão do tempo',
+    link: './previsao-tempo/index.html',
+    img: './img_index/nublado.png',
+    alt: 'Previsão do tempo'
   }
 ]
 
