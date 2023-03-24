@@ -52,19 +52,10 @@ footer{
   padding: 20px;
 }
 
-@media (max-width:480px){
-  header{
-      position:fixed;
-      width:100%;
-  }
-  .header-title{
-      font-size: 1.5rem;
-  }
-
+@media (max-width:600px){
   main{
-      padding: 0;
-      margin: 20px 0 0 0;
-      width:100%;
-      box-shadow: none;
+    padding: 10px;
+
+
   }
 }
