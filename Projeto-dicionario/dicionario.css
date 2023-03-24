@@ -5,13 +5,16 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-  width: 100vw;
+body{
   height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #container {
-  height: 100%;
+  
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -31,13 +34,21 @@ body {
 }
 
 #container__secundario {
-  width: 700px;
+  width: 90%;
+  max-width: 600px;
   padding: 30px 50px ;
   background-color: rgba(150, 151, 147, 0.774);
   border-radius: 10px;
   -webkit-box-shadow: 9px -7px 11px -2px rgba(0,0,0,0.75);
   -moz-box-shadow: 9px -7px 11px -2px rgba(0,0,0,0.75);
   box-shadow: 9px -7px 11px -2px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width:500px){
+  #container__secundario{
+     padding: 10px ;
+  }
+ 
 }
 
 #container__input{
